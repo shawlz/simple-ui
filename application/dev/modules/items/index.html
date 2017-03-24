@@ -1,0 +1,59 @@
+<!-- <div class="bg-light lter b-b wrapper-md">
+                <h1 class="m-n font-thin h3">Widgets</h1>
+</div> -->
+<!-- <div class="wrapper-md"> -->
+<div class="hbox hbox-auto-xs bg-light hbox" ng-controller="ChatCtrl">
+    <!-- column -->
+    <div class="col item">
+        <!-- main header -->
+        <div class="bg-light lter b-b wrapper-md">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <h1 class="m-n font-thin h3 text-black">{{app.nameShort}} Interface</h1>
+                    <small class="text-muted">Welcome to the {{app.name}} Interface</small>
+                </div>
+            </div>
+        </div>
+        <!-- / main header -->
+        <div class="wrapper-md">
+            <div class="row-row">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Item List</div>
+                    <div class="panel-body">
+                        <div ng-repeat="item in items">
+                            <h4 class="text-uppercase">{{item.title}} | {{item.description}}</h4><div>added {{Date.create(item.createdAt).relative()}}</div><hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /column -->
+    <!-- column -->
+    <div class="col w-md bg-white-only b-l bg-auto no-border-xs">
+        <div class="vbox">
+            <div class="wrapper b-b b-light">
+                <div class="font-thin h4">Using {{app.nameShort}}</div>
+                <small class="text-muted">How to use this interface</small>
+            </div>
+            <div class="row-row">
+                <div class="panel">
+                    <div class="panel-body">
+                        <article class="media">
+                            <div class="media-body">
+                               
+                            </div>
+                        </article>
+                        <div class="line pull-in"></div>
+                        <article class="media">
+                            <div class="media-body">
+                                
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /column -->
+</div>
